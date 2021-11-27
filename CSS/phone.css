@@ -1,0 +1,46 @@
+#navbar{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+nav .nav-links a {
+    padding: 0px 0px;
+}
+
+nav #logo {
+    margin-left: 0;
+}
+.name{
+    margin-right: 0;
+}
+
+.bio {
+    margin-left: 25%;
+  }
+
+.more-about{
+    /* width: 80%; */
+    padding: 1rem 2rem;
+}
+.skills img {
+    height: 100px;
+    width: 100px;
+}
+.projects-container{
+    display: flex;
+    flex-direction: column;
+}
+.project-card {
+    width: 70%;
+  }
+.contact-form-container{
+    width: 80%;
+}
+.socicon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#message{
+    height:100px;
+}
